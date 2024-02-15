@@ -28,19 +28,19 @@ DB_PORT=5432
 ### How It Works
 Among the main functionalities of the project are creating, editing, deleting, and viewing all your meetings.
 
-###Dashboard
+### Dashboard
 ------------
 <a href="https://ibb.co/qBnn848"><img src="https://i.ibb.co/XX44PdP/dashboard.png" alt="dashboard" border="0"></a>
 
-###Edit Page
+### Edit Page
 ------------
 <a href="https://ibb.co/ZgK2QHz"><img src="https://i.ibb.co/X5pYnyx/edit-dash.png" alt="edit-dash" border="0"></a>
 
-###Creating Modal
+### Creating Modal
 ------------
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/XLngwHy/create.png" alt="create" border="0"></a>
 
-###Editing Modal
+### Editing Modal
 ------------
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/QPwbDwR/edit.png" alt="edit" border="0"></a>
 
