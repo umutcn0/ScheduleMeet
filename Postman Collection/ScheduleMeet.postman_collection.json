@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "6a1557a4-df82-4640-91d9-f872395bf7b8",
+		"name": "ScheduleMeet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26379967"
+	},
+	"item": [
+		{
+			"name": "MeetHandler GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/meet/handler",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"meet",
+						"handler"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MeetHandler CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"participants\": \"umut@hotmail.com\", \n    \"date\": \"2024-01-30\",\n    \"start_hour\": \"12:00:00\",\n    \"end_hour\": \"12:30:00\",\n    \"description\":\"deneme\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/meet/handler/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"meet",
+						"handler",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MeetHandler UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"1\",\n    \"participants\": \"umut@hotmail.com\", \n    \"date\": \"2024-01-30\",\n    \"start_hour\": \"12:00:00\",\n    \"end_hour\": \"12:30:00\",\n    \"description\":\"deneme\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/meet/handler/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"meet",
+						"handler",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MeetHandler DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"1\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/meet/handler/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"meet",
+						"handler",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
