@@ -25,6 +25,9 @@ environ.Env.read_env()
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env("SECRET_KEY")
 
+DEBUG = False
+ALLOWED_HOSTS = ["umutcn.com.tr" "www.umutcn.com.tr" "68.219.178.0"]
+
 # Application definition
 
 INSTALLED_APPS = [
