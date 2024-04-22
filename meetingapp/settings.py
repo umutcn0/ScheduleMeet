@@ -26,7 +26,7 @@ environ.Env.read_env()
 SECRET_KEY = env("SECRET_KEY")
 
 DEBUG = False
-ALLOWED_HOSTS = ["umutcn.com.tr" "www.umutcn.com.tr" "68.219.178.0"]
+ALLOWED_HOSTS = ["umutcn.com.tr","www.umutcn.com.tr","68.219.178.0"]
 
 # Application definition
 
